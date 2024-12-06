@@ -14,6 +14,7 @@ function Home() {
     <div className="p-4 ">
       <h1 className="text-3xl font-bold mb-4 flex flex-col">Moodify: Select your mood</h1>
       <div className="flex flex-wrap gap-4 mb-6 flex justify-center">
+        {/* yahan changes krna ha */}
         {['Happy', 'Sad', 'Motivated', 'Relaxed', 'Excited', 'Bored'].map((mood) => (
           <button
             key={mood}
@@ -40,5 +41,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
